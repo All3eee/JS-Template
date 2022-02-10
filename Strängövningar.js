@@ -28,14 +28,21 @@ let sökord = prompt('Vad vill du googla?')
 checkSpam(sökord)*/
 
 //Task 3
-function truncate(str, maxlength) {
-    let strlenght = str.length
-    if (strlenght > maxength) {
-        return str.slice(maxlength) + ('...')
+/**function truncate(str, maxlength) {
+    let strlength = str.length
+    if (strlength > maxlength) {
+        return str.slice(0, maxlength - 1) + ('...')
     } else {
         return str
     }
 
 }
 
-alert(truncate("What I'd like to tell on this topic is:", 20))
+alert(truncate("What I'd like to tell on this topic is:", 20))*/
+
+//Task 4
+/**function extractCurrencyValue(str) {
+    return str.slice(1)
+}
+    
+alert(extractCurrencyValue('$120'))*/
