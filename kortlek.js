@@ -83,7 +83,7 @@ for (let i = 0; i < färger.length; i++) {
 
 // 3. Testa att blanda kortleken med blanda() och visa kortleken igen.
 
-//kortlek.blanda();
+kortlek.blanda();
 
 
 // 4. Skapa en litet spel med en huvudmeny med följande menyval:
